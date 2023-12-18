@@ -1,0 +1,105 @@
+/* Estilo Geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 350px;
+}
+
+.container p {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Caixa de Input e Botão de Copiar */
+.input-box {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.input-box input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.input-box span {
+    display: flex;
+    align-items: center;
+}
+
+.input-box button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-box button:hover {
+    background-color: #2980b9;
+}
+
+/* Configurações de Senha */
+.pass-settings {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.pass-settings .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options .option {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.options .option input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Botão Gerar Senha */
+.generate-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.generate-btn:hover {
+    background-color: #27ae60;
+}
