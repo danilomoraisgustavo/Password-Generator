@@ -38,4 +38,4 @@ Se você tiver alguma dúvida ou sugestão, por favor abra uma issue ou me envie
 
 ---
 
-Desenvolvido com ❤️ por [SeuNome]
+Desenvolvido com ❤️ por [Danilo de Morais]
